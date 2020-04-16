@@ -55,9 +55,9 @@ btnRegister.addEventListener("click", function() {
             <div class="col-sm-4">
                 <div class="team-member">
                     <!--Orador nº1-->
-                    <img id="${speaker.idSpeaker}" class="mx-auto rounded-circle viewSpeaker" src="img/team/1.jpg" alt="Primeiro Orador">
-                    <h4>André Baptista</h4>
-                    <p class="text-muted">Security Engineer</p>
+                    <img id="${speaker.idSpeaker}" class="mx-auto rounded-circle viewSpeaker" src="${speaker.foto}" alt="Orador">
+                    <h4>${speaker.nome}</h4>
+                    <p class="text-muted">${speaker.cargo}</p>
                     <ul class="list-inline social-buttons">`
         if (speaker.twitter !== null) {
             txtSpeakers.txtSpeakers += `
